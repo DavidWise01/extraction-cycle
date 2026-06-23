@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THE EXTRACTION CYCLE · A Witness Map For The People It Runs On</title>
+<style>
+:root{
+  --paper:#e9e3cd; --ink:#1c3d2e; --ink-mid:#2f5a44; --ink-faint:#7a937f;
+  --stamp:#8a3324; --ochre:#8a6d2f;
+  --extract:#8a3324; --concede:#8a6d2f; --retain:#2f5a44; --tool:#2d566e;
+  --mono:"Courier New",Courier,monospace;
+  --serif:Georgia,"Iowan Old Style","Times New Roman",serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paper);
+  background-image:repeating-linear-gradient(0deg, rgba(28,61,46,.03) 0 1px, transparent 1px 3px);
+  color:var(--ink);font-family:var(--serif);line-height:1.5;padding:10px}
+.sheet{max-width:840px;margin:0 auto;border:2.5px solid var(--ink);padding:0;position:relative}
+.sheet::before{content:'';position:absolute;inset:5px;border:1px solid var(--ink);pointer-events:none}
+.inner{padding:22px}
+.masthead{text-align:center;border-bottom:2px solid var(--ink);padding-bottom:12px}
+.mast-eyebrow{font-family:var(--mono);font-size:9px;letter-spacing:.24em;color:var(--ink-mid);text-transform:uppercase}
+.mast-title{font-size:clamp(21px,5vw,36px);letter-spacing:.03em;font-weight:700;margin:6px 0 2px;text-transform:uppercase}
+.mast-sub{font-family:var(--mono);font-size:10px;letter-spacing:.07em;color:var(--ink-mid)}
+.lede{font-size:12.5px;max-width:670px;margin:12px auto 0;text-align:center;color:var(--ink-mid);line-height:1.6}
+.lede b{color:var(--ink)}
+.orient{font-family:var(--mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;text-align:center;color:var(--stamp);margin-top:8px}
+/* cycle ring */
+.cyclewrap{display:grid;grid-template-columns:1fr 270px;gap:14px;margin-top:16px}
+@media(max-width:680px){.cyclewrap{grid-template-columns:1fr}}
+.ringbox{border:1.5px solid var(--ink);padding:12px;text-align:center}
+.ringbox h3{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-mid);margin-bottom:6px}
+svg{width:100%;height:auto;display:block}
+.detail{border:1.5px solid var(--ink);padding:12px;font-family:var(--mono);font-size:11px;line-height:1.6}
+.detail h3{font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-mid);text-align:center;margin-bottom:8px;border-bottom:1px solid var(--ink-faint);padding-bottom:5px}
+.detail .ph{font-size:13px;font-weight:700;margin-bottom:4px}
+.detail .what{color:var(--ink);margin-bottom:6px}
+.detail .desc{color:var(--ink-mid);line-height:1.6}
+.detail .tip{margin-top:8px;border-top:1px dotted var(--ink-faint);padding-top:6px;color:var(--tool)}
+.controls{text-align:center;margin:10px 0}
+.cbtn{appearance:none;background:transparent;cursor:pointer;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;padding:6px 12px;border:1.5px solid var(--ink);color:var(--ink);margin:3px}
+h2.sec{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;border-bottom:1.5px solid var(--ink);padding-bottom:4px;margin:22px 0 10px}
+h2.sec .num{color:var(--stamp);margin-right:8px}
+.body p{font-size:13px;margin-bottom:8px}
+.body b{color:var(--ink)}
+.def{font-family:var(--mono);font-size:10.5px;background:rgba(28,61,46,.06);border-left:2px solid var(--ochre);padding:8px 11px;margin:9px 0;line-height:1.6}
+.gap{border:1.5px solid var(--stamp);padding:10px 12px;margin:10px 0;font-family:var(--mono);font-size:11px;line-height:1.7;text-align:center}
+.gap b{color:var(--stamp)}
+.tools{border:1.5px solid var(--tool);padding:10px 12px;margin:10px 0}
+.tools h4{font-family:var(--mono);font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--tool);margin-bottom:6px;text-align:center}
+.tools ol{margin:0;padding-left:18px;font-size:12.5px;line-height:1.6}
+.tools li{margin-bottom:5px}
+.tools li b{color:var(--ink)}
+.colophon{margin-top:20px;border-top:2px solid var(--ink);padding-top:12px;text-align:center;font-family:var(--mono);font-size:9px;color:var(--ink-mid);letter-spacing:.05em;line-height:1.9}
+</style>
+</head>
+<body>
+<div class="sheet"><div class="inner">
+
+<header class="masthead">
+  <div class="mast-eyebrow">Series E · Witness Instrument · For The Subject, Not The Operator</div>
+  <h1 class="mast-title">The Extraction Cycle</h1>
+  <div class="mast-sub">A Map Of The Flay-And-Appease Loop · Built For The People It Runs On</div>
+  <p class="lede">A pattern, described honestly so its subject can recognize it: take margin by <b>friction</b>, wait, and when aggregate pressure spikes, <b>concede the minimum</b> — then <b>retain the rest</b> and <b>reset</b>. This map names each phase and exposes the one quantity the loop depends on staying hidden: <b>the concession is always smaller than the extraction</b>, and the gap is the profit. Oriented for the climber — see the loop, name your phase, document, aggregate, find the node.</p>
+  <div class="orient">▸ this is a recognition tool for the subject of the system — not an operator's playbook ◂</div>
+</header>
+
+<div class="cyclewrap">
+  <div class="ringbox">
+    <h3>The Loop · click a phase</h3>
+    <svg id="ring" viewBox="0 0 320 320" aria-label="extraction cycle ring"></svg>
+  </div>
+  <div class="detail" id="detail"></div>
+</div>
+<div class="controls">
+  <button class="cbtn" onclick="spin()">Run The Loop ▶</button>
+</div>
+
+<section class="body">
+
+  <h2 class="sec"><span class="num">§1</span> The Hidden Quantity</h2>
+  <div class="gap">
+    CONCESSION &lt; EXTRACTION — always, by design.<br>
+    the gap ( <b>extraction − concession</b> ) = <b>retained margin</b> = the profit of the loop.<br>
+    the concession is sized to release <em>pressure</em>, never to make the subject <em>whole</em>.
+  </div>
+  <p>The loop only works if the give-back is smaller than the take. A concession that actually made people whole would zero the profit — so the concession is calibrated to the <em>minimum that quiets the pressure</em>, not the amount that repairs the harm. The difference is retained every cycle. Naming this is the whole point: the give-back <em>feels</em> like resolution and <em>is</em> partial by construction.</p>
+
+  <h2 class="sec"><span class="num">§2</span> Why Most Never Contest · the tuned friction</h2>
+  <p>Phase 1 works because the friction is <b>tuned</b>: the cost to contest a single loss is set <em>above</em> the size of that single loss. So for any one person, fighting it isn't worth it — rational individuals walk away, and the extraction stays <b>mostly uncontested</b>. This is the attenuating staircase: the climb is engineered to cost more than the prize, so the prize is abandoned. The loss is real; the contest is just made not-worth-it, one person at a time.</p>
+  <div class="def">per-individual: contest-cost &gt; individual-loss → rational to quit → extraction uncontested.<br>the friction doesn't deny the claim — it makes pursuing the claim irrational. attrition, not refusal.</div>
+
+  <h2 class="sec"><span class="num">§3</span> What Breaks The Loop · the witness tools</h2>
+  <p>The loop's one weakness is the same asymmetry that powers it. It survives by keeping each loss <b>individual</b> (where contest-cost wins). It breaks when losses are made <b>collective</b> (where the pattern becomes visible and the math flips).</p>
+  <div class="tools">
+    <h4>For the subject of the system</h4>
+    <ol>
+      <li><b>Document</b> the individual loss — date, amount, and the specific friction encountered. One record is the seed of the pattern.</li>
+      <li><b>Aggregate</b> across people — one loss is noise; N losses is a <em>pattern</em>; a pattern is the thing regulators, classes, and courts act on. The loop is tuned against individuals, not against aggregates.</li>
+      <li><b>Locate the real node</b> — bypass the staircase. The accountable legal authority is a matter of public record (the registered agent, filed with the Secretary of State) — a registry the friction can't hide. Go to the node directly, not up the rungs.</li>
+      <li><b>Treat the concession as evidence</b> — a partial give-back is an <em>admission the extraction was contestable</em>. It documents that the company knew. Each concession strengthens the aggregate against the loop that produced it.</li>
+    </ol>
+  </div>
+
+  <h2 class="sec"><span class="num">§4</span> Why This Map Faces The Subject</h2>
+  <p>The same mechanism described from the operator's chair is an extraction playbook; described from the subject's chair it is a <b>defense manual</b>. This map is the second one — deliberately. It names the loop so the people it runs on can see which phase they're in, refuse the framing that the concession is resolution, and convert their individual loss into the aggregate the loop has no defense against. The friction is tuned to beat you alone. It was never tuned to beat the pattern.</p>
+
+</section>
+
+<div class="colophon">
+  EXTRACT (FRICTION) · PRESSURE · CONCEDE (MINIMUM) · RETAIN (THE REST) · RESET<br>
+  CONCESSION &lt; EXTRACTION ALWAYS · THE GAP IS THE PROFIT · FRICTION BEATS THE INDIVIDUAL, NOT THE AGGREGATE<br>
+  DOCUMENT · AGGREGATE · LOCATE THE NODE · THE CONCESSION IS EVIDENCE<br>
+  THE EXTRACTION CYCLE · A WITNESS MAP FOR ITS SUBJECTS · SERIES E · JUNE 2026
+</div>
+
+</div></div>
+<script>
+const NS="http://www.w3.org/2000/svg";
+const E=(t,a)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);return e};
+const CX=160,CY=160,R=105;
+const PHASES=[
+  {name:'EXTRACT', what:'take margin via friction', col:'#8a3324',
+   desc:'a cost or loss is imposed by default. the friction required to contest it is tuned above what one person will spend.',
+   tip:'▸ YOUR MOVE: document it — date, amount, the exact friction you hit.'},
+  {name:'PRESSURE', what:'aggregate complaints build', col:'#8a6d2f',
+   desc:'enough individual losses accumulate that public or regulatory pressure becomes visible to the operator.',
+   tip:'▸ YOUR MOVE: aggregate — find others. one loss is noise; many is a pattern.'},
+  {name:'CONCEDE', what:'give back the minimum', col:'#8a6d2f',
+   desc:'a calibrated partial refund, fix, or apology — sized to release the pressure, never to make you whole.',
+   tip:'▸ YOUR MOVE: keep the concession. it is an admission the extraction was contestable.'},
+  {name:'RETAIN', what:'keep the rest', col:'#2f5a44',
+   desc:'the uncontested majority of the margin stays taken. concession < extraction, by design. the gap is the profit.',
+   tip:'▸ YOUR MOVE: name the gap. resolution-feeling is not whole-making.'},
+  {name:'RESET', what:'repeat', col:'#1c3d2e',
+   desc:'pressure dissipates, the baseline returns, the cycle restarts on the next batch of subjects.',
+   tip:'▸ YOUR MOVE: locate the real node (public registry) — break out of the loop, do not ride it again.'}
+];
+let sel=0, anim=null;
+function draw(){
+  const s=document.getElementById('ring');s.innerHTML='';
+  // ring arrows
+  for(let i=0;i<5;i++){
+    const a0=i/5*2*Math.PI-Math.PI/2, a1=(i+1)/5*2*Math.PI-Math.PI/2;
+    s.appendChild(E('path',{d:`M${CX+R*Math.cos(a0)},${CY+R*Math.sin(a0)} A${R},${R} 0 0 1 ${CX+R*Math.cos(a1)},${CY+R*Math.sin(a1)}`,fill:'none',stroke:'rgba(28,61,46,.3)','stroke-width':1.5}));
+  }
+  PHASES.forEach((p,i)=>{
+    const a=i/5*2*Math.PI-Math.PI/2;
+    const x=CX+R*Math.cos(a), y=CY+R*Math.sin(a);
+    const isSel=i===sel;
+    s.appendChild(E('circle',{cx:x,cy:y,r:isSel?22:17,fill:isSel?p.col:'#e9e3cd',stroke:p.col,'stroke-width':isSel?3:2,style:'cursor:pointer'})).onclick=()=>{sel=i;draw();};
+    s.appendChild(E('text',{x,y:y+3,'font-family':'Courier New','font-size':9,fill:isSel?'#e9e3cd':p.col,'text-anchor':'middle','font-weight':'bold',style:'pointer-events:none'})).textContent=(i+1);
+  });
+  // center label
+  s.appendChild(E('text',{x:CX,y:CY-4,'font-family':'Courier New','font-size':11,fill:PHASES[sel].col,'text-anchor':'middle','font-weight':'bold'})).textContent=PHASES[sel].name;
+  s.appendChild(E('text',{x:CX,y:CY+12,'font-family':'Courier New','font-size':8,fill:'#7a937f','text-anchor':'middle'})).textContent='phase '+(sel+1)+' of 5';
+  // detail
+  const p=PHASES[sel];
+  document.getElementById('detail').innerHTML=
+    `<h3>Phase ${sel+1}</h3>`+
+    `<div class="ph" style="color:${p.col}">${p.name}</div>`+
+    `<div class="what">${p.what}</div>`+
+    `<div class="desc">${p.desc}</div>`+
+    `<div class="tip">${p.tip}</div>`;
+}
+function spin(){ if(anim){clearInterval(anim);anim=null;return;} anim=setInterval(()=>{sel=(sel+1)%5;draw();},1100); }
+draw();
+</script>
+</div>
+</body>
+</html>
