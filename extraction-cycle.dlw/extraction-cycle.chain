@@ -4,6 +4,6 @@ slug  : extraction-cycle
 seal  : 69591f9dd0f961d07b1f3a63fe9a62e6f207f196cef9b4d51f847077fbac9c2f
 prev  : 114d7be413fe5c2c39485bd6931eb4f42597cd1a3c420589fee065930c554f99
 link  : 70b0281f5c0ba5a8824dd3b64a4095b5b47d036701ed48e23b6ba567f76985bd
-head  : 3447d3a0533aaf1e29a8bdc67a9774884fb3ae9dbc8a17064b7a008ca3c4ec90
+head  : 13f9ace173ef2e60af38912ba329b4afcb5a38b84a0e4495e8d30327f8c99cc2
 
 — the tether: link = sha256(index|slug|seal|prev). the chain head commits to the whole corpus.
